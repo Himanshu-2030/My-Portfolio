@@ -226,7 +226,7 @@ section {
   text-align: center;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: space-around;
 }
 
