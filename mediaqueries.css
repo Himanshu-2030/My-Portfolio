@@ -54,6 +54,7 @@
   }
   article {
     font-size: 1rem;
+    width: 6rem;
   }
   footer nav {
     height: fit-content;
@@ -97,3 +98,4 @@
     text-align: justify;
   }
 }
+
