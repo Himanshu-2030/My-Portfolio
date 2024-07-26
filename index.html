@@ -7,8 +7,9 @@
     <title>Himanshu Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    
   </head>
-  <body>
+  <body oncontextmenu=" return false ">
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/pic crop 1.jpg" alt="Himanshu Nirmalkar profile pic" class="profile-pic" loading="lazy"/>
@@ -38,6 +39,8 @@
         </div>
       </div>
     </section>
+    
+    <!-- about section  -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -139,11 +142,51 @@
         </div>
       </div>
     </section>
+    <!-- timeline section  -->
+    
+    <section class="timeline">
+      <p class="section__text__p1">Experience</p>
+      <h1 class="title">So far</h1>
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-content">
+              <h2>TedxSSTC Tech Team Lead<span class="timeline-date">Present</span></h2>
+              <p>Leading the tech team for TedxSSTC, overseeing all technical aspects and ensuring seamless event execution.</p>
+          </div>
+          <div class="timeline-marker"></div>
+      </div>
+      <div class="timeline-item">
+          <div class="timeline-content">
+              <h2>SWE Fellow (@Headstarter AI)<span class="timeline-date">Present</span></h2>
+              <!-- <p>Focusing on building</p> -->
+          </div>
+          <div class="timeline-marker"></div>
+      </div>
+      <div class="timeline-item">
+          <div class="timeline-content">
+              <h2>NITRR Summer Intern<span class="timeline-date">May - June (2024)</span></h2>
+              <p>Gained hands-on experience in web application security, including insights into web penetration testing and OWASP Top 10 best practices.</p>
+          </div>
+          <div class="timeline-marker"></div>
+      </div>
+      <div class="timeline-item">
+          <div class="timeline-content">
+              <h2>Swaang Club<span class="timeline-date">(2022 - 2023)</span></h2>
+              <p>Core member of the dramatics club, involved in Nukkad, Acting, Street Plays, and Cinematics, contributing to various theatrical performances.</p>
+          </div>
+          <div class="timeline-marker"></div>
+      </div>
+      
+      </div>
+  </section>
+
+    <!-- project section  -->
     <section id="projects">
       <p class="section__text__p1">Browse</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- first box  -->
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -158,6 +201,26 @@
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://himanshu-2030.github.io/Campus-virtual-Tour-/'"
+              >
+                Go Live
+              </button>
+            </div>
+          </div>
+           <!-- next  -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Chat-o-matic.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Chat-O-Matic</h2>
+            <div class="btn-container">
+              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://prashansa2003.github.io/Chat-o-matic/'"
               >
                 Go Live
               </button>
@@ -227,8 +290,13 @@
           <!-- next  -->
         </div>
       </div>
-      
     </section>
+
+    <!-- gif -->
+    <div class="gif-container">
+      <img src="assets/video.gif"  class="gif" alt="gif">
+    </div>
+    <!-- contact section  -->
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Connect with Me</h1>
@@ -247,7 +315,7 @@
     </section>
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
   </body>
 </html>
