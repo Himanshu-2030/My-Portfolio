@@ -143,3 +143,9 @@
     font-size: 0.8em; /* Adjust font size for dates */
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .tree video {
+    height: 350px;
+  }
+}

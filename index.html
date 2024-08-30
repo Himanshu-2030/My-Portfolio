@@ -10,7 +10,7 @@
     
   </head>
   <body oncontextmenu=" return false ">
-    <section id="profile">
+    <section id="profile" class=".section">
       <div class="section__pic-container">
         <img src="./assets/pic crop 1.jpg" alt="Himanshu Nirmalkar profile pic" class="profile-pic" loading="lazy"/>
       </div>
@@ -41,7 +41,7 @@
     </section>
     
     <!-- about section  -->
-    <section id="about">
+    <section id="about" class="section">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
@@ -75,7 +75,7 @@
         </div>
       
     </section>
-    <section id="experience">
+    <section id="experience" class="section">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
       <div class="experience-details-container">
@@ -143,8 +143,10 @@
       </div>
     </section>
     <!-- timeline section  -->
-    
-    <section class="timeline">
+    <div class="tree">
+      <video src="./assets/cicada_tree.webm" autoplay loop muted></video>
+    </div>
+    <section class="timeline" class="section">
       <p class="section__text__p1">Experience</p>
       <h1 class="title">So far</h1>
       <div class="timeline-container">
@@ -181,7 +183,7 @@
   </section>
 
     <!-- project section  -->
-    <section id="projects">
+    <section id="projects" class="section">
       <p class="section__text__p1">Browse</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -336,8 +338,9 @@
     <div class="gif-container">
       <video src="./assets/video.mp4" autoplay loop muted></video>
     </div>
+    
     <!-- contact section  -->
-    <section id="contact">
+    <section id="contact" class="section">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Connect with Me</h1>
       <div class="contact-info-upper-container">
@@ -348,11 +351,12 @@
         </div>
         <div class="contact-info-container">
          
-          <ion-icon name="logo-linkedin" size="large" class="icon" onclick="location.href='https://in.linkedin.com/in/himanshu-nirmalkar'"></ion-icon>
+          <ion-icon name="logo-linkedin" size="large" onclick="location.href='https://in.linkedin.com/in/himanshu-nirmalkar'"></ion-icon>
           <p><a href="https://in.linkedin.com/in/himanshu-nirmalkar">LinkedIn</a></p>
         </div>
       </div>
     </section>
+    
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

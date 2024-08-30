@@ -345,8 +345,15 @@ article .icon {
 }
 
 /* CONTACT */
+/* Video background container */
+
+
+
+
 
 #contact {
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -377,19 +384,27 @@ article .icon {
   font-size: larger;
 }
 
-.gif-container {
-  width: 100%; /* Container will take up full width */
-  /* max-width: 800px; */
-  margin: 0 auto; /* Center the container horizontally */
+.gif-containerm{
+  width: 100%;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 .gif-container video {
-  width: 100%; /* Video will take up full width of the container */
-  height: auto; /* Maintain the aspect ratio */
-  max-height: 500px; 
-  object-fit: cover; /* Ensures the video covers the container while maintaining aspect ratio */
+  width: 100%;
+  height: auto; 
+  max-height: 300px; 
+  object-fit: fill; 
 }
+
+.tree video {
+  width: 100%;
+  height: auto; 
+  max-height: 719px; 
+  object-fit: cover;
+  margin: 0 auto;
+}
+
 
 
 
